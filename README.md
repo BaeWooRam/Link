@@ -11,6 +11,23 @@ App Link는 사용자가 앱을 선택할 필요 없이, 웹사이트의 URL을 
 https://domain.name/.well-known/assetlinks.json
 ```
 
+- 인증 요청
+App의 링크 처리 인증을 사용 설정하려면 다음 manifest 코드 스니펫과 같이 **앱 manifest의 웹 URL 인텐트 필터 중 하나에서 android:autoVerify="true"**를 설정합니다.(android.intent.action.VIEW 인텐트 작업 및 android.intent.category.BROWSABLE 인텐트 카테고리가 포함된 앱 manifest에서).    
+
+```
+<activity ...>
+
+        <intent-filter android:autoVerify="true">
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" android:host="www.example.com" />
+            <data android:scheme="https" />
+        </intent-filter>
+
+    </activity>
+```
+
 ## Deep vs App
 
 - Deep Link
