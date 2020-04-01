@@ -115,3 +115,20 @@ App Link는 개발자의 웹사이트에 속한다는 것이 확인된, 웹사�
 ![image](https://user-images.githubusercontent.com/41356481/78000413-31a9d800-736f-11ea-9bf5-ed8adea57c85.png)
 
 ## Firebase Dynamic Link
+1. 단축 URL 링크 설정    
+![image](https://user-images.githubusercontent.com/41356481/78112626-739f5080-7439-11ea-96db-6bd0129017c6.png)
+    
+2. 동적 링크 설정    
+![image](https://user-images.githubusercontent.com/41356481/78112744-9f223b00-7439-11ea-8125-9e5abf8e5157.png)
+    
+3. iOS용 링크 동작 정의    
+![image](https://user-images.githubusercontent.com/41356481/78112909-dc86c880-7439-11ea-9673-20a776bd56bd.png)
+    
+4. Android용 링크 동작 정의     
+![image](https://user-images.githubusercontent.com/41356481/78112953-ed373e80-7439-11ea-9da4-0c4c8a5f6e4a.png)
+     
+5. 캠페인 추적, 소셜 태그, 고급 옵션     
+![image](https://user-images.githubusercontent.com/41356481/78113013-0c35d080-743a-11ea-8ac1-86f5b9d49423.png)
+     
+6. 완성      
+![image](https://user-images.githubusercontent.com/41356481/78112514-4d79b080-7439-11ea-9624-cb68cab29e0f.png)
