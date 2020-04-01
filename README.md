@@ -114,7 +114,7 @@ App Link는 개발자의 웹사이트에 속한다는 것이 확인된, 웹사�
 
 ![image](https://user-images.githubusercontent.com/41356481/78000413-31a9d800-736f-11ea-9bf5-ed8adea57c85.png)
 
-## Firebase Dynamic Link
+## Firebase Dynamic Link(Android & iOS)
 1. 단축 URL 링크 설정    
 ![image](https://user-images.githubusercontent.com/41356481/78112626-739f5080-7439-11ea-96db-6bd0129017c6.png)
     
